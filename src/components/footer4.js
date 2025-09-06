@@ -11,8 +11,8 @@ const Footer4 = (props) => {
         <div className="footer4-content">
           <div className="footer4-logo1">
             <img
-              alt={props.logoAlt}
-              src={props.logoSrc}
+              logoSrc="/public/photos/logo_cafe.png"
+              logoAlt="My New Logo"
               className="footer4-logo2"
             />
           </div>
@@ -124,7 +124,7 @@ Footer4.defaultProps = {
   link4: undefined,
   logoAlt: 'Hipsters Cafe Logo',
   cookiesLink: undefined,
-  logoSrc: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
+  logoSrc: '/public/photos/logo_cafe.png',
   privacyLink: undefined,
 }
 
@@ -137,7 +137,7 @@ Footer4.propTypes = {
   link4: PropTypes.element,
   logoAlt: PropTypes.string,
   cookiesLink: PropTypes.element,
-  logoSrc: PropTypes.string,
+  //logoSrc: PropTypes.string,
   privacyLink: PropTypes.element,
 }
 

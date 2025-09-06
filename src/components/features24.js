@@ -1,7 +1,5 @@
 import React, { useState, Fragment } from 'react'
-
 import PropTypes from 'prop-types'
-
 import './features24.css'
 
 const Features24 = (props) => {
@@ -128,35 +126,32 @@ const Features24 = (props) => {
 
 Features24.defaultProps = {
   feature1ImgAlt: 'Interactive Menu Cards',
-  feature3Description: undefined,
-  feature3Title: undefined,
-  feature3ImgSrc:
-    'https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1NzAxMTI3MHw&ixlib=rb-4.1.0&q=80&w=1080',
-  feature1ImgSrc:
-    'https://images.unsplash.com/photo-1732724081252-a0a92895558a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1NzAxMTI3MHw&ixlib=rb-4.1.0&q=80&w=1080',
-  feature2Description: undefined,
-  feature1Title: undefined,
-  feature3ImgAlt: 'Interactive Experience Image',
-  feature1Description: undefined,
-  feature2ImgSrc:
-    'https://images.unsplash.com/photo-1603231648305-e14562b41a1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1NzAxMTI3MXw&ixlib=rb-4.1.0&q=80&w=1080',
+  feature1ImgSrc: '/Photos/Auto.png',
   feature2ImgAlt: 'Order Flow Image',
+  feature2ImgSrc: '/Photos/All items.png',
+  feature3ImgAlt: 'Interactive Experience Image',
+  feature3ImgSrc: '/Photos/peoples.png',
+  feature1Title: undefined,
+  feature1Description: undefined,
   feature2Title: undefined,
+  feature2Description: undefined,
+  feature3Title: undefined,
+  feature3Description: undefined,
 }
 
 Features24.propTypes = {
   feature1ImgAlt: PropTypes.string,
-  feature3Description: PropTypes.element,
-  feature3Title: PropTypes.element,
-  feature3ImgSrc: PropTypes.string,
   feature1ImgSrc: PropTypes.string,
-  feature2Description: PropTypes.element,
-  feature1Title: PropTypes.element,
-  feature3ImgAlt: PropTypes.string,
-  feature1Description: PropTypes.element,
-  feature2ImgSrc: PropTypes.string,
   feature2ImgAlt: PropTypes.string,
+  feature2ImgSrc: PropTypes.string,
+  feature3ImgAlt: PropTypes.string,
+  feature3ImgSrc: PropTypes.string,
+  feature1Title: PropTypes.element,
+  feature1Description: PropTypes.element,
   feature2Title: PropTypes.element,
+  feature2Description: PropTypes.element,
+  feature3Title: PropTypes.element,
+  feature3Description: PropTypes.element,
 }
 
 export default Features24

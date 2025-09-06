@@ -45,7 +45,7 @@ const Testimonial17 = (props) => {
                       {props.author1Name ?? (
                         <Fragment>
                           <span className="testimonial17-text26">
-                            Alice Smith
+                            Kammari Anand
                           </span>
                         </Fragment>
                       )}
@@ -221,7 +221,7 @@ Testimonial17.defaultProps = {
   author2Position: undefined,
   author1Position: undefined,
   author3Alt: 'Emily Brown - Designer',
-  author1Name: undefined,
+  author1Name: "Kammari Anand",
   author1Src:
     'https://images.unsplash.com/photo-1471864167314-e5f7e37e404c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1NzAxMTI2NXw&ixlib=rb-4.1.0&q=80&w=1080',
   author3Name: undefined,
@@ -231,7 +231,7 @@ Testimonial17.defaultProps = {
   author4Name: undefined,
   author4Src:
     'https://images.unsplash.com/photo-1640951613773-54706e06851d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1NzAxMTI2N3w&ixlib=rb-4.1.0&q=80&w=1080',
-  author1Alt: 'Alice Smith - Food Blogger',
+  author1Alt: 'Kammari Anand - Food Blogger',
   author2Src:
     'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1NzAxMTI2OXw&ixlib=rb-4.1.0&q=80&w=1080',
   author3Src:

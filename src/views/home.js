@@ -18,8 +18,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Zany Grandiose Fish</title>
-        <meta property="og:title" content="Zany Grandiose Fish" />
+        <title>Hipsters Cafe</title>
+        <meta property="og:title" content="Hipsters Cafe" />
       </Helmet>
       <Navbar8
         page4Description={
@@ -405,7 +405,7 @@ const Home = (props) => {
         }
         plan3Yearly1={
           <Fragment>
-            <span className="home-text167">or $49 monthly</span>
+            <span className="home-text167">or $59 monthly</span>
           </Fragment>
         }
         plan2Feature31={
@@ -420,7 +420,7 @@ const Home = (props) => {
         }
         plan1Yearly1={
           <Fragment>
-            <span className="home-text170">or $20 monthly</span>
+            <span className="home-text170">or $21 monthly</span>
           </Fragment>
         }
         plan2Price1={
